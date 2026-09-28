@@ -119,13 +119,19 @@
                 display: inline-flex;
                 
             }
-            /* Menu-table-section */
-            #Menu-table-section,.order-form-section{
+            /* menu-table-section */
+            .menu-table-section{
                 background-color: beige;
                 padding: 30px 20px;
-                text-align: center;
+                text-align: left;
+                margin-left: 40px;
+                border-radius: 20px;
+            
 
             }
+            
+            
+            
             table{
                 width: 80%;
                 margin: 20px;
@@ -154,6 +160,12 @@
                 margin-top: 10px;
                 height: 50px;
             }
+            .Order-Form-Section{
+                background-color: beige;
+                padding: 30px 20px;
+                text-align: left;
+                margin-left: 40px;
+                border-radius: 20px;}
 
             
             /* footer */
@@ -201,24 +213,26 @@
             
             <div class="menu">
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Menu">About us</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                
                 
             </ul>
             </div>
             <div class="btn">
                 
-            <button class="header-btn">Order now</button>
+            <a href="#Order"><button class="header-btn">Order now</button></a>
         </div>
         </div>
         <div id="herobar"></div>
-            <div class="about-us">
+            <div class="about-us" id="about">
             
                 <h2 class="about-h2">About us:</h2>
                 <div class="about-me">
                     
                 <div class="about-para">
+                    
         
                    <p>
         Welcome to our cozy coffee corner, where every cup tells a story. We started with a simple passion — to serve the freshest, richest coffee made from carefully selected beans. Our journey began with a small dream and a love for the perfect brew.
@@ -230,7 +244,7 @@
     </p>
                     </p>
                     </div>
-                    <div class="about us"></div>
+                    
                     <div class="about-img">
                         <img src="https://i.pinimg.com/736x/21/74/32/2174329b8ef1603c1cbc68bd9ef5865a.jpg" width="250px" height="50px">
                         </div>
@@ -238,7 +252,7 @@
                     </div>
                 </div>
             </div>
-            <div class="menu-table-section">
+            <div class="menu-table-section" id="Menu">
     <h2>Our Menu</h2>
     <table>
         <tr>
@@ -270,9 +284,9 @@
 </div>
     </table>
 </div>
-<div class="Order-Form-Section"></div>
+<div class="Order-Form-Section" id="Order">
 <h2>Place Your Order</h2>
-<form></form>
+<form>
 <label>Name:</label> 
 <input type="text" name="Name" required ><br><br> 
 <label>Choose Coffee</label>
@@ -288,6 +302,9 @@
         <label>Phone number</label>
         <input type="tell"><br><br>
         <button type="submit">Order now</button>
+        <br><br>
+        </form>
+        </div>
         <div id="footer">
     <div class="footer-dec">
         <img src="https://i.pinimg.com/1200x/de/be/52/debe5296149d0137b3d9d376fa520afe.jpg" width="80px" height="80px">
@@ -296,9 +313,9 @@
     <div class="footer-menu">
         <h3>Quick Links</h3>
         <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About us">About us</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#Menu">Menu</a></li>
         </ul>
     </div>
 
