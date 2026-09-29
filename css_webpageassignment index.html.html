@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My coffee shop</title>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-color: antiquewhite;
+            }
+            /* header */
+            #header{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                padding: 10px 20px 0px;
+                border-width: 0px 0px 2px 0px;
+                border-style: solid;
+                background-color: saddlebrown;
+                align-items: center;
+               border-bottom: 10px;
+               border-color: cornsilk;
+               border-radius: 20px;
+             }
+             .logo{
+                width: 30%;
+                height: 40%;
+             }
+             .menu{
+                width: 40%;
+            
+                
+             }
+             .btn{
+                width: 30%;
+                
+                
+                
+            
+            }
+              ul{
+                display: inline-flex;
+                list-style-type: none;
+             }
+            
+             li,button{
+                font-size: 15px;
+                padding: 20px;
+                margin: 0px 10px;
+                border-radius: 20px;
+                background-color: peru;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 800;
+                height: 15px;
+                text-align: center;
+                color: black;}
+
+             a{
+                text-decoration: none;
+                color: black;
+             }
+             .header-btn{
+                margin-left: 280px;
+                margin-top: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 15px 30px;
+                width: auto;
+             }
+             /* herobar */
+             #herobar{
+                background-image: url(https://i.pinimg.com/1200x/72/85/f9/7285f98236a9920930c32eff6eabf922.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                height: 500px;
+                padding-top: 0px;
+                margin-top: 10px;
+                border-radius: 20px;
+                display: flex;
+                
+            }
+            /* about us */
+            .about-us{
+                background-color: beige;
+                width: 100%;
+                padding: 40px 20px;
+            }
+            .about-h2{
+                font-size: 30px;
+                color: black;
+                text-align: left;
+            }
+            .about-me{
+                display: inline-flex;
+                padding: 25px;
+                width: 100%;
+                background-color: burlywood;
+            
+            }
+            .about-para, .about-img{
+                width: 50%;
+                margin: 10px;
+
+            }
+            .about-img img{
+                width: 400px;
+                height: 400px;
+                border-radius: 25px;
+                align-items: self-end;
+                
+
+            }
+            .about-para p{
+                padding-top: 20px;
+                font-size: 18px;
+                display: inline-flex;
+                
+            }
+            /* menu-table-section */
+            .menu-table-section{
+                background-color: beige;
+                padding: 30px 20px;
+                text-align: left;
+                margin-left: 40px;
+                border-radius: 20px;
+            
+
+            }
+            
+            
+            
+            table{
+                width: 80%;
+                margin: 20px;
+                
+
+                
+            }
+            th,td{
+                border: solid;
+                padding: 10px;
+            }
+            th{
+                background-color: saddlebrown;
+                color: cornsilk;
+            }
+            input,select{
+                padding: 8px;
+                border-radius: 10px;
+                width: 200px;
+            }
+            button{
+                background-color: saddlebrown;
+                color: cornsilk;
+                padding: 10px 25px;
+                border-radius: 20px;
+                margin-top: 10px;
+                height: 50px;
+            }
+            .Order-Form-Section{
+                background-color: beige;
+                padding: 30px 20px;
+                text-align: left;
+                margin-left: 40px;
+                border-radius: 20px;}
+
+            
+            /* footer */
+            #footer{
+             display: flex;
+             justify-content: space-between;
+             padding: 30px 40px;
+             background-color: saddlebrown;
+            }
+            .footer-dec, .footer-menu, .footer-followsus{
+             width: 30%;
+             color: cornsilk;
+             height: 150px;
+             box-sizing: border-box;
+            }
+            .footer-menu ul li{
+                background-color: transparent;
+             list-style: none;
+             padding: 5px;
+             width: 100%;
+             height: 100%;
+            
+            }
+            .footer-menu a, .footer-followsus a{
+             color: cornsilk;
+            text-decoration: none;
+             display: block;
+             margin: 5px 0;
+             
+            
+            }
+            .footer-menu h3{
+                text-align: center;
+                width: 100%;
+            }
+            input[type="radio"]{
+                width: auto;
+                padding: 0;
+                margin: 0 5px 0 15px;
+            } 
+           
+             
+        </style>
+    </head>
+    <body>
+        <div id="header">
+          <div class="logo">
+                <img src="https://i.pinimg.com/1200x/de/be/52/debe5296149d0137b3d9d376fa520afe.jpg" alt="coffee" width="100" height="100">
+            </div>
+            
+            <div class="menu">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                
+                
+            </ul>
+            </div>
+            <div class="btn">
+                
+            <a href="#Order"><button class="header-btn">Order now</button></a>
+        </div>
+        </div>
+        <div id="herobar"></div>
+            <div class="about-us" id="about">
+            
+                <h2 class="about-h2">About us:</h2>
+                <div class="about-me">
+                    
+                <div class="about-para">
+                    
+        
+                   <p>
+        Welcome to our cozy coffee corner, where every cup tells a story. We started with a simple passion — to serve the freshest, richest coffee made from carefully selected beans. Our journey began with a small dream and a love for the perfect brew.
+        <br><br>
+
+        Today, we take pride in offering a warm and inviting space where friends gather, ideas are born, and every sip feels like home. From classic espresso to creamy lattes, we make sure every cup is crafted with care and served with a smile.
+        <br><br>
+        We believe great coffee is more than just a drink — it's a moment to pause, relax, and connect. Whether you're starting your morning, catching up with a friend, or simply enjoying a quiet break, we're here to make that moment a little more special, one cup at a time.
+    </p>
+                    </p>
+                    </div>
+                    
+                    <div class="about-img">
+                        <img src="https://i.pinimg.com/736x/21/74/32/2174329b8ef1603c1cbc68bd9ef5865a.jpg" width="250px" height="50px">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="menu-table-section" id="Menu">
+    <h2>Our Menu</h2>
+    <table>
+        <tr>
+            <th>Coffee</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Espresso</td>
+            <td>Strong and bold shot of coffee</td>
+            <td>Rs. 250</td>
+        </tr>
+        <tr>
+            <td>Cappuccino</td>
+            <td>Espresso with steamed milk foam</td>
+            <td>Rs. 350</td>
+        </tr>
+        <tr>
+            <td>Latte</td>
+            <td>Smooth espresso with steamed milk</td>
+            <td>Rs. 400</td>
+        </tr>
+         <tr>
+            <td>Cold Brew</td>
+            <td>Chilled, slow-steeped coffee</td>
+            <td>Rs. 380</td>
+        </tr>
+    </table>
+</div>
+    </table>
+</div>
+<div class="Order-Form-Section" id="Order">
+<h2>Place Your Order</h2>
+<form>
+<label>Name:</label> 
+<input type="text" name="Name" required ><br><br> 
+<label>Choose Coffee</label>
+<select>
+    <option>Espresso</option>
+    <option>Cappuccino</option>
+    <option>Latte</option>
+    <option>Cold brew</option>
+</select>
+<br><br>
+        <label>Quantity</label>
+        <input type="number" min="1" value="1"><br><br>
+        <label>Phone number</label>
+        <input type="tell" required><br><br>
+        <label>Address</label>
+        <input type="text" name="Address" id="Address" required>
+        <br><br>
+        <label>Type:</label>
+        <input type="radio" name="Type" id="Hot" value="H">
+        <label for="H">Hot</label>
+        <input type="radio" name="Type" id="Iced" value="Iced">
+        <label for="I">Iced</label>
+        <br><br>
+        <button type="submit">Order now</button>
+        <br><br>
+        
+        
+        </form>
+        </div>
+        <div id="footer">
+    <div class="footer-dec">
+        <img src="https://i.pinimg.com/1200x/de/be/52/debe5296149d0137b3d9d376fa520afe.jpg" width="80px" height="80px">
+        <p>Brewed with love, served with a smile — your favorite coffee spot in town.</p>
+    </div>
+    <div class="footer-menu">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#Menu">Menu</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-followsus">
+        <h3>Follow us</h3>
+        <a href="#facebook">Facebook</a>
+        <a href="#Instagram">Instagram</a>
+        <a href="#LinkedIn">LinkedIn</a>
+        <a href="#YouTube">YouTube</a>
+    </div>
+</div>
+
+    </body>
+</html>
